@@ -1,0 +1,370 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Human-Guided Fair Classification for Natural Language Processing - Florian E. Dorner</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="Florian E. Dorner">
+<meta property="og:title" content="Human-Guided Fair Classification for Natural Language Processing">
+
+
+  <link rel="canonical" href="http://localhost:4000/Publication/fairnlp">
+  <meta property="og:url" content="http://localhost:4000/Publication/fairnlp">
+
+
+
+  <meta property="og:description" content="We use LLMs and human to generate valid constraints for individual fairness in text classification.">
+
+
+
+
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2023-02-01T00:00:00+01:00">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Florian E. Dorner Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    
+
+<!-- start custom head snippets -->
+
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/academicons.css" />
+
+
+<!-- Support for MatJax -->
+<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- end custom head snippets -->
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Florian E. Dorner</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/Publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/Tools/">Tools</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    	<img src="http://localhost:4000/images/2022_04_17_6936_crop.JPG" class="author__avatar" alt="Florian E. Dorner">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">Florian E. Dorner</h3>
+    
+    <p class="author__bio">PhD student in Machine Learning</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      <!-- Font Awesome icons / Biographic information  -->
+      
+        <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>Tübingen / Zürich</li>
+      
+      
+        <li class="author__desktop"><i class="fa fa-solid fa-building-columns icon-pad-right" aria-hidden="true"></i>MPI-IS / ETH Zürich</li>
+      
+      
+      
+        <li><a href="mailto:florian.dorner [at] tuebingen.mpg.de"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
+      
+
+      <!-- Font Awesome and Academicons icons / Academic websites -->
+            
+      
+        <li><a href="https://scholar.google.com/citations?user=aYHq31IAAAAJ&hl=en"><i class="ai ai-google-scholar icon-pad-right"></i>Google Scholar</a></li>
+      
+      
+      
+                              
+      
+
+      <!-- Font Awesome icons / Repositories and software development -->
+      
+            
+            
+      
+        <li><a href="https://github.com/flodorner"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>Github</a></li>
+      
+            
+            
+
+      <!-- Font Awesome icons / Social media -->
+      
+      
+            
+      
+                  
+                  
+      
+            
+            
+      
+        <li><a href="https://www.linkedin.com/in/florian-dorner-242b48172"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
+            
+      
+            
+                  
+            
+      
+            
+            
+      
+              
+      
+                      
+      
+      
+            
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <meta itemprop="headline" content="Human-Guided Fair Classification for Natural Language Processing">
+    
+    <meta itemprop="description" content="We use LLMs and human to generate valid constraints for individual fairness in text classification.">
+    
+    
+    <meta itemprop="datePublished" content=" February 01, 2023">
+    
+
+    <div class="page__inner-wrap">
+      
+      <header>
+        <h1 class="page__title" itemprop="headline">Human-Guided Fair Classification for Natural Language Processing
+ <a href=https://openreview.net/pdf?id=N_g8TT9Cy7f> (pdf)</a> </h1>
+        
+        
+        
+
+        
+        <!--Published in -->
+        <p><strong>Florian E. Dorner</strong>, Momchil Peychev, Nikola Konstantinov, Naman Goel, Elliott Ash, and Martin Vechev </p>
+        <p> <strong>ICLR 2023 (Top 25% Spotlight)</strong> </p>
+        <!--, 2023 -->
+        
+      </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <p>Text classifiers have promising applications in high-stake tasks such as resume screening and content moderation. These classifiers must be fair and avoid discriminatory decisions by being invariant to perturbations of sensitive attributes such as gender or ethnicity. However, there is a gap between human intuition about these perturbations and the formal similarity specifications capturing them. While existing research has started to address this gap, current methods are based on hardcoded word replacements, resulting in specifications with limited expressivity or ones that fail to fully align with human intuition (e.g., in cases of asymmetric counterfactuals). This work proposes novel methods for bridging this gap by discovering expressive and intuitive individual fairness specifications. We show how to leverage unsupervised style transfer and GPT-3’s zero-shot capabilities to automatically generate expressive candidate pairs of semantically similar sentences that differ along sensitive attributes. We then validate the generated pairs via an extensive crowdsourcing study, which confirms that a lot of these pairs align with human intuition about fairness in the context of toxicity classification. Finally, we show how limited amounts of human feedback can be leveraged to learn a similarity specification that can be used to train downstream fairness-aware models.</p>
+
+
+
+        <!--
+          <p style="font-size: smaller">Recommended citation: Dorner, Florian E., et al. "Human-Guided Fair Classification for Natural Language Processing." The Eleventh International Conference on Learning Representations. 2023. <a href="https://openreview.net/pdf?id=N_g8TT9Cy7f"><u>https://openreview.net/pdf?id=N_g8TT9Cy7f</u></a></p>
+        -->
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+
+
+      </footer>
+
+      <!--
+
+<section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/Publication/fairnlp" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/Publication/fairnlp" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/Publication/fairnlp" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>-->
+
+      
+
+
+  <nav class="pagination">
+    
+      <a href="http://localhost:4000/Publication/forecasting" class="pagination--pager" title="Forecasting AI progress: A research agenda
+">Previous</a>
+    
+    
+      <a href="http://localhost:4000/Publication/personality" class="pagination--pager" title="Do Personality Tests Generalize to Large Language Models?
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    <div class="page__footer">
+      <footer>
+        
+        
+
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+    <!--
+    <li><a href="http://github.com/flodorner"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+    </li>
+    -->
+    
+    
+  </ul>
+</div>
+
+
+<style>
+  .container {
+    display: flex;
+    /* Use flexbox */
+    justify-content: space-between;
+    /* Add space between the boxes */
+    align-items: center;
+    /* Center vertically */
+  }
+
+  .box {
+    width: 50%;
+    /* Each div takes 50% width */
+    border: 1px solid black;
+    padding: 20px;
+  }
+</style>
+
+<div class="container">
+  <div class="page__footer-copyright">&copy; 2024 Florian Dorner. Powered by <a href="http://jekyllrb.com"
+      rel="nofollow">Jekyll</a> &amp; <a
+      href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a
+      href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+  <div class="page__footer-copyright">
+    Max Planck Institut für Intelligente Systeme <br>
+    Max-Planck-Ring 4 <br>
+    72076 Tübingen <br>
+    Germany <br> </div>
+</div>
+      </footer>
+    </div>
+
+    <script src="http://localhost:4000/assets/js/main.min.js"></script>
+
+
+
+
+
+  </body>
+</html>
+

@@ -1,0 +1,370 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Forecasting AI progress: A research agenda - Florian E. Dorner</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="Florian E. Dorner">
+<meta property="og:title" content="Forecasting AI progress: A research agenda">
+
+
+  <link rel="canonical" href="http://localhost:4000/Publication/forecasting">
+  <meta property="og:url" content="http://localhost:4000/Publication/forecasting">
+
+
+
+  <meta property="og:description" content="A survey on experts’ opinions on forecasting AI progress.">
+
+
+
+
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2021-09-01T00:00:00+02:00">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Florian E. Dorner Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    
+
+<!-- start custom head snippets -->
+
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/academicons.css" />
+
+
+<!-- Support for MatJax -->
+<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- end custom head snippets -->
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Florian E. Dorner</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/Publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/Tools/">Tools</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    	<img src="http://localhost:4000/images/2022_04_17_6936_crop.JPG" class="author__avatar" alt="Florian E. Dorner">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">Florian E. Dorner</h3>
+    
+    <p class="author__bio">PhD student in Machine Learning</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      <!-- Font Awesome icons / Biographic information  -->
+      
+        <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>Tübingen / Zürich</li>
+      
+      
+        <li class="author__desktop"><i class="fa fa-solid fa-building-columns icon-pad-right" aria-hidden="true"></i>MPI-IS / ETH Zürich</li>
+      
+      
+      
+        <li><a href="mailto:florian.dorner [at] tuebingen.mpg.de"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
+      
+
+      <!-- Font Awesome and Academicons icons / Academic websites -->
+            
+      
+        <li><a href="https://scholar.google.com/citations?user=aYHq31IAAAAJ&hl=en"><i class="ai ai-google-scholar icon-pad-right"></i>Google Scholar</a></li>
+      
+      
+      
+                              
+      
+
+      <!-- Font Awesome icons / Repositories and software development -->
+      
+            
+            
+      
+        <li><a href="https://github.com/flodorner"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>Github</a></li>
+      
+            
+            
+
+      <!-- Font Awesome icons / Social media -->
+      
+      
+            
+      
+                  
+                  
+      
+            
+            
+      
+        <li><a href="https://www.linkedin.com/in/florian-dorner-242b48172"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
+            
+      
+            
+                  
+            
+      
+            
+            
+      
+              
+      
+                      
+      
+      
+            
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <meta itemprop="headline" content="Forecasting AI progress: A research agenda">
+    
+    <meta itemprop="description" content="A survey on experts’ opinions on forecasting AI progress.">
+    
+    
+    <meta itemprop="datePublished" content=" September 01, 2021">
+    
+
+    <div class="page__inner-wrap">
+      
+      <header>
+        <h1 class="page__title" itemprop="headline">Forecasting AI progress: A research agenda
+ <a href=https://pdf.sciencedirectassets.com/271733/1-s2.0-S0040162521X00066/1-s2.0-S0040162521003413/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE0aCXVzLWVhc3QtMSJHMEUCIQCjHO5lYMc5YPPy0fcgo5cbU9yDlB9ndAiexeoK9IOCuQIgbIOraMRFQ4qi5w4zt7qEcergKBpmKAGTRUT76GAYCycqswUIdRAFGgwwNTkwMDM1NDY4NjUiDOEUuHEYQxMFda07LSqQBWUaafaQJgwjzvEC8JSIJUh%2BMBj0pxRU%2BuVtSesU65YAdkwy7gtF2vfVe8joAflgzroJAiivHDVFnPtA1%2F%2BBbOClRN29ohEhl%2FtqbJyDnCOKOABRhp8NvU8YJfPrb8u%2BtSFae4JGQfTdPsKwB9yCWRugMXorIUnYSkCmlb%2FTkdVen8tc1%2FBPq9T02bJWbQi0e61Zx95kST2nQ3kcBm5XxX6%2FeZJlNoLdWCDOe1tEcPP0VyvLv%2FLJPJB9yb1GB1qXj8sad%2FxCgxNhdyCduZ0dXhcD8vkFAzm3MBsH9PGaCybUGVDb7OydpsymuI%2FmhyH5PuQu%2BgQj6orYJfRJEQRl%2FfC6n7DJ9d%2FMv9J4PTX%2FyS55U7cEheqGtDMxaLUthps1xep11km6oL157sZbmvkIxZyjoRwtp63j1eljqpRX4Dc0BBDR7DdBXLKfJPC8xD1O2GWl0PL7F3ITRBm2gHs2TcN6lZEOjM%2BvxZb%2F0WNryhl91H0kU5WWeewi4WP1ECn2t%2BFY6reqjsJJS4dE7aGUeM8nVh3MkfxFojYF1AlViINhCj8FWuj7hjkFdyl0s96atF0rzzI5lv0YXKCZeiS1lIp4VyVMGM23l%2Ff34BU1%2FCwLlp5C5b%2FUxM5uVaFCGjgeRC0H0wlTCvWMa5WXaOESXs7nnQFVT6iruwqEuB3Xg3bn2p8w1LVPZDXAKkIzId8LQymDH9UZrh1GbfN4RUyDgAHFk6SEXShNNH6am37cz%2FzAAqGNR3Nlfi0h38JsHMC9NcgSsYiYrA%2FymL97dgNjyy%2Bs3owo3R9oRCziYJAPl1FiOS4L8%2BEzDFEx4K%2BbcziGI3FMBhNkojsr8X8lGAvhKczGPlF12YcsNwyxx%2BYk4gwNMNOStbAGOrEBaNK3c2mAfBiyabIdxnHYdMdxCChRPUSN2m3rbd0SH5m%2Fll7baQImHUIhz2tJZtEngKmLToRF8jucPRYe5oLfB0F21VbQIroW6ekOs1fhiZCUvHJouenE%2B%2BxoFZGHoT5fO4VQfrtSjf24POkMQrquu5JhAdSa3VQBT0YL7dlRtU%2F1HupTVAMEbzTm1W5XglymLXDiDKvR0Myg9E78EPsRylcNRfmHX%2FyyWq93pbYA8GwE&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240403T134531Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYVJPR34ES%2F20240403%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=3912149b6600dea95f0ad3a7760e18c4de993408b07b3d14cca78b10fef4a5a7&hash=59b51b452603431e09d6ed75bec2f4074c916394bda8a3f7a8424b0a01fb1deb&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0040162521003413&tid=spdf-a013c380-ed70-4936-b670-571a9550db30&sid=3889513327df624634688dd448ad87f699a5gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=1e0359580a565909065206&rr=86e97fe5df822c10&cc=de> (pdf)</a> </h1>
+        
+        
+        
+
+        
+        <!--Published in -->
+        <p>Ross Gruetzemacher, <strong>Florian E. Dorner</strong>, Niko Bernaola-Alvarez, Charlie Giattino, David Manheim </p>
+        <p> <strong>Technological Forecasting and Social Change 170, 120909 (2021)</strong> </p>
+        <!--, 2021 -->
+        
+      </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <p>Forecasting AI progress is essential to reducing uncertainty in order to appropriately plan for research efforts on AI safety and AI governance. While this is generally considered to be an important topic, little work has been conducted on it and there is no published document that gives a balanced overview of the field. Moreover, the field is very diverse and there is no published consensus regarding its direction. This paper describes the development of a research agenda for forecasting AI progress which utilized the Delphi technique to elicit and aggregate experts’ opinions on what questions and methods to prioritize. Experts indicated that a wide variety of methods should be considered for forecasting AI progress. Moreover, experts identified salient questions that were both general and completely unique to the problem of forecasting AI progress. Some of the highest priority topics include the validation of (partially unresolved) forecasts, how to make forecasts action-guiding, and the quality of different performance metrics. While statistical methods seem more promising, there is also recognition that supplementing judgmental techniques can be quite beneficial.</p>
+
+
+
+        <!--
+          <p style="font-size: smaller">Recommended citation: Gruetzemacher, Ross, et al. "Forecasting AI progress: A research agenda." Technological Forecasting and Social Change 170 (2021): 120909. <a href="https://pdf.sciencedirectassets.com/271733/1-s2.0-S0040162521X00066/1-s2.0-S0040162521003413/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE0aCXVzLWVhc3QtMSJHMEUCIQCjHO5lYMc5YPPy0fcgo5cbU9yDlB9ndAiexeoK9IOCuQIgbIOraMRFQ4qi5w4zt7qEcergKBpmKAGTRUT76GAYCycqswUIdRAFGgwwNTkwMDM1NDY4NjUiDOEUuHEYQxMFda07LSqQBWUaafaQJgwjzvEC8JSIJUh%2BMBj0pxRU%2BuVtSesU65YAdkwy7gtF2vfVe8joAflgzroJAiivHDVFnPtA1%2F%2BBbOClRN29ohEhl%2FtqbJyDnCOKOABRhp8NvU8YJfPrb8u%2BtSFae4JGQfTdPsKwB9yCWRugMXorIUnYSkCmlb%2FTkdVen8tc1%2FBPq9T02bJWbQi0e61Zx95kST2nQ3kcBm5XxX6%2FeZJlNoLdWCDOe1tEcPP0VyvLv%2FLJPJB9yb1GB1qXj8sad%2FxCgxNhdyCduZ0dXhcD8vkFAzm3MBsH9PGaCybUGVDb7OydpsymuI%2FmhyH5PuQu%2BgQj6orYJfRJEQRl%2FfC6n7DJ9d%2FMv9J4PTX%2FyS55U7cEheqGtDMxaLUthps1xep11km6oL157sZbmvkIxZyjoRwtp63j1eljqpRX4Dc0BBDR7DdBXLKfJPC8xD1O2GWl0PL7F3ITRBm2gHs2TcN6lZEOjM%2BvxZb%2F0WNryhl91H0kU5WWeewi4WP1ECn2t%2BFY6reqjsJJS4dE7aGUeM8nVh3MkfxFojYF1AlViINhCj8FWuj7hjkFdyl0s96atF0rzzI5lv0YXKCZeiS1lIp4VyVMGM23l%2Ff34BU1%2FCwLlp5C5b%2FUxM5uVaFCGjgeRC0H0wlTCvWMa5WXaOESXs7nnQFVT6iruwqEuB3Xg3bn2p8w1LVPZDXAKkIzId8LQymDH9UZrh1GbfN4RUyDgAHFk6SEXShNNH6am37cz%2FzAAqGNR3Nlfi0h38JsHMC9NcgSsYiYrA%2FymL97dgNjyy%2Bs3owo3R9oRCziYJAPl1FiOS4L8%2BEzDFEx4K%2BbcziGI3FMBhNkojsr8X8lGAvhKczGPlF12YcsNwyxx%2BYk4gwNMNOStbAGOrEBaNK3c2mAfBiyabIdxnHYdMdxCChRPUSN2m3rbd0SH5m%2Fll7baQImHUIhz2tJZtEngKmLToRF8jucPRYe5oLfB0F21VbQIroW6ekOs1fhiZCUvHJouenE%2B%2BxoFZGHoT5fO4VQfrtSjf24POkMQrquu5JhAdSa3VQBT0YL7dlRtU%2F1HupTVAMEbzTm1W5XglymLXDiDKvR0Myg9E78EPsRylcNRfmHX%2FyyWq93pbYA8GwE&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240403T134531Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYVJPR34ES%2F20240403%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=3912149b6600dea95f0ad3a7760e18c4de993408b07b3d14cca78b10fef4a5a7&hash=59b51b452603431e09d6ed75bec2f4074c916394bda8a3f7a8424b0a01fb1deb&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0040162521003413&tid=spdf-a013c380-ed70-4936-b670-571a9550db30&sid=3889513327df624634688dd448ad87f699a5gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=1e0359580a565909065206&rr=86e97fe5df822c10&cc=de"><u>https://pdf.sciencedirectassets.com/271733/1-s2.0-S0040162521X00066/1-s2.0-S0040162521003413/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE0aCXVzLWVhc3QtMSJHMEUCIQCjHO5lYMc5YPPy0fcgo5cbU9yDlB9ndAiexeoK9IOCuQIgbIOraMRFQ4qi5w4zt7qEcergKBpmKAGTRUT76GAYCycqswUIdRAFGgwwNTkwMDM1NDY4NjUiDOEUuHEYQxMFda07LSqQBWUaafaQJgwjzvEC8JSIJUh%2BMBj0pxRU%2BuVtSesU65YAdkwy7gtF2vfVe8joAflgzroJAiivHDVFnPtA1%2F%2BBbOClRN29ohEhl%2FtqbJyDnCOKOABRhp8NvU8YJfPrb8u%2BtSFae4JGQfTdPsKwB9yCWRugMXorIUnYSkCmlb%2FTkdVen8tc1%2FBPq9T02bJWbQi0e61Zx95kST2nQ3kcBm5XxX6%2FeZJlNoLdWCDOe1tEcPP0VyvLv%2FLJPJB9yb1GB1qXj8sad%2FxCgxNhdyCduZ0dXhcD8vkFAzm3MBsH9PGaCybUGVDb7OydpsymuI%2FmhyH5PuQu%2BgQj6orYJfRJEQRl%2FfC6n7DJ9d%2FMv9J4PTX%2FyS55U7cEheqGtDMxaLUthps1xep11km6oL157sZbmvkIxZyjoRwtp63j1eljqpRX4Dc0BBDR7DdBXLKfJPC8xD1O2GWl0PL7F3ITRBm2gHs2TcN6lZEOjM%2BvxZb%2F0WNryhl91H0kU5WWeewi4WP1ECn2t%2BFY6reqjsJJS4dE7aGUeM8nVh3MkfxFojYF1AlViINhCj8FWuj7hjkFdyl0s96atF0rzzI5lv0YXKCZeiS1lIp4VyVMGM23l%2Ff34BU1%2FCwLlp5C5b%2FUxM5uVaFCGjgeRC0H0wlTCvWMa5WXaOESXs7nnQFVT6iruwqEuB3Xg3bn2p8w1LVPZDXAKkIzId8LQymDH9UZrh1GbfN4RUyDgAHFk6SEXShNNH6am37cz%2FzAAqGNR3Nlfi0h38JsHMC9NcgSsYiYrA%2FymL97dgNjyy%2Bs3owo3R9oRCziYJAPl1FiOS4L8%2BEzDFEx4K%2BbcziGI3FMBhNkojsr8X8lGAvhKczGPlF12YcsNwyxx%2BYk4gwNMNOStbAGOrEBaNK3c2mAfBiyabIdxnHYdMdxCChRPUSN2m3rbd0SH5m%2Fll7baQImHUIhz2tJZtEngKmLToRF8jucPRYe5oLfB0F21VbQIroW6ekOs1fhiZCUvHJouenE%2B%2BxoFZGHoT5fO4VQfrtSjf24POkMQrquu5JhAdSa3VQBT0YL7dlRtU%2F1HupTVAMEbzTm1W5XglymLXDiDKvR0Myg9E78EPsRylcNRfmHX%2FyyWq93pbYA8GwE&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240403T134531Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYVJPR34ES%2F20240403%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=3912149b6600dea95f0ad3a7760e18c4de993408b07b3d14cca78b10fef4a5a7&hash=59b51b452603431e09d6ed75bec2f4074c916394bda8a3f7a8424b0a01fb1deb&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0040162521003413&tid=spdf-a013c380-ed70-4936-b670-571a9550db30&sid=3889513327df624634688dd448ad87f699a5gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=1e0359580a565909065206&rr=86e97fe5df822c10&cc=de</u></a></p>
+        -->
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+
+
+      </footer>
+
+      <!--
+
+<section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/Publication/forecasting" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/Publication/forecasting" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/Publication/forecasting" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>-->
+
+      
+
+
+  <nav class="pagination">
+    
+      <a href="http://localhost:4000/Publication/collusion" class="pagination--pager" title="Algorithmic collusion: A critical review
+">Previous</a>
+    
+    
+      <a href="http://localhost:4000/Publication/fairnlp" class="pagination--pager" title="Human-Guided Fair Classification for Natural Language Processing
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    <div class="page__footer">
+      <footer>
+        
+        
+
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+    <!--
+    <li><a href="http://github.com/flodorner"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+    </li>
+    -->
+    
+    
+  </ul>
+</div>
+
+
+<style>
+  .container {
+    display: flex;
+    /* Use flexbox */
+    justify-content: space-between;
+    /* Add space between the boxes */
+    align-items: center;
+    /* Center vertically */
+  }
+
+  .box {
+    width: 50%;
+    /* Each div takes 50% width */
+    border: 1px solid black;
+    padding: 20px;
+  }
+</style>
+
+<div class="container">
+  <div class="page__footer-copyright">&copy; 2024 Florian Dorner. Powered by <a href="http://jekyllrb.com"
+      rel="nofollow">Jekyll</a> &amp; <a
+      href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a
+      href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+  <div class="page__footer-copyright">
+    Max Planck Institut für Intelligente Systeme <br>
+    Max-Planck-Ring 4 <br>
+    72076 Tübingen <br>
+    Germany <br> </div>
+</div>
+      </footer>
+    </div>
+
+    <script src="http://localhost:4000/assets/js/main.min.js"></script>
+
+
+
+
+
+  </body>
+</html>
+
