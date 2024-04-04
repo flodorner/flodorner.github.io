@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Tools"
-permalink: /tools/
+permalink: /Tools/
 author_profile: true
 ---
 
