@@ -4,9 +4,9 @@ collection: Publications
 permalink: /Publication/labelnoise
 excerpt: 'When building a test set for binary classification from noisy label, how many labels to collect per data point? Surprisingly under a simple budget constraint, the answer is a single label.'
 date: 2024-02-03
-venue: 'Workshop on Navigating and Addressing Data Problems for Foundation Models (at ICLR 2024)'
+venue: "Forty-first International Conference on Machine Learning"
 paperurl: 'https://arxiv.org/pdf/2402.02249.pdf'
-citation: 'Dorner, Florian E., and Moritz Hardt. "Dont Label Twice: Quantity Beats Quality when Comparing Binary Classifiers on a Budget." arXiv preprint arXiv:2402.02249 (2024).'
+citation: 'Dorner, Florian E., and Moritz Hardt. "Dont Label Twice: Quantity Beats Quality when Comparing Binary Classifiers on a Budget." Forty-first International Conference on Machine Learning (2024)'
 authors: "<strong>Florian E. Dorner</strong>, Moritz Hardt"
 ---
 
