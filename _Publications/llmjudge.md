@@ -5,7 +5,7 @@ permalink: /Publication/llmjudge
 excerpt: 'Model evaluations based on LLM judgements are often biased. After debiasing, the gains achievable from access to an LLM are limited.'
 date: 2024-10-17
 venue: 'arxiv preprint'
-paperurl: 'https://arxiv.org/abs/2410.13341'
+paperurl: 'https://arxiv.org/abs/2410.13341.pdf'
 citation: 'Dorner, Florian E., Vivian Y. Nastl, and Moritz Hardt. "Limits to scalable evaluation at the frontier: LLM as Judge won't beat twice the data." arXiv preprint arXiv:2410.13341 (2024).'
 authors: "<strong>Florian E. Dorner</strong>, Vivian Y. Nastl, and Moritz Hardt"
 ---
