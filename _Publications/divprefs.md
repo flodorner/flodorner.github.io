@@ -3,7 +3,7 @@ title: "Whose Preferences? Differences in Fairness Preferences and Their Impact 
 collection: Publications
 permalink: /Publication/divprefs
 excerpt: 'Human preferences about judgments in text classification are not invariant accross demographic groups'
-date: 2024-09-06
+date: 2024-06-09
 venue: 'Annual Meeting of the Association for Computational Linguistics 2024'
 paperurl: 'https://arxiv.org/abs/2406.05902'
 citation: 'Lerner, Emilia Agis, et al. "Whose Preferences? Differences in Fairness Preferences and Their Impact on the Fairness of AI Utilizing Human Feedback." Proceedings of the 62st Annual Meeting of the Association for Computational Linguistics'
