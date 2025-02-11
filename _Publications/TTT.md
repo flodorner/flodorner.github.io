@@ -4,7 +4,7 @@ collection: Publications
 permalink: /Publication/TTT
 excerpt: 'Recent improvements in LLM performance that go beyond compute scaling appear to be fully explained by training on benchmark-specific data'
 date: 2024-07-10
-venue: 'arxiv preprint'
+venue: 'ICLR 2025 (Oral)'
 paperurl: 'https://arxiv.org/pdf/2407.07890'
 citation: 'Dominguez-Olmedo, Ricardo, Florian E. Dorner, and Moritz Hardt. "Training on the Test Task Confounds Evaluation and Emergence." arXiv preprint arXiv:2407.07890 (2024).'
 authors: "Ricardo Dominguez-Olmedo, <strong>Florian E. Dorner</strong>, and Moritz Hardt"
