@@ -6,7 +6,6 @@ excerpt: 'How has sample efficiency in deep reinforcement learning improved over
 date: 2021-02-09
 venue: 'arxiv preprint'
 paperurl: 'https://arxiv.org/pdf/2102.04881.pdf'
-citation: 'Dorner, Florian E. "Measuring progress in deep reinforcement learning sample efficiency." arXiv preprint arXiv:2102.04881 (2021).'
 authors: "<strong>Florian E. Dorner</strong>"
 ---
 

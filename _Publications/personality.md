@@ -6,7 +6,6 @@ excerpt: "Language models' answers to personality tests markedly deviate from ty
 date: 2023-10-11
 venue: 'Socially Responsible Language Modelling Research Workshop (at NeurIPS 2023)'
 paperurl: 'https://arxiv.org/pdf/2311.05297.pdf'
-citation: 'Dorner, Florian, et al. "Do Personality Tests Generalize to Large Language Models?." Socially Responsible Language Modelling Research. 2023.'
 authors: "<i><strong>Florian E. Dorner</strong>, Tom Sühr</i>, Samira Samadi, Augustin Kelava (<i>Equal contribution</i>)" 
 ---
 

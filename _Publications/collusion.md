@@ -6,7 +6,6 @@ excerpt: 'How realistic is the prospect of pricing algorithms learning to collud
 date: 2021-08-08
 venue: 'arxiv preprint'
 paperurl: 'https://arxiv.org/ftp/arxiv/papers/2110/2110.04740.pdf'
-citation: 'Dorner, Florian E. "Algorithmic collusion: a critical review." arXiv preprint arXiv:2110.04740 (2021).'
 authors: "<strong>Florian E. Dorner</strong>"
 ---
 

@@ -6,7 +6,6 @@ excerpt: 'We use LLMs and human to generate valid constraints for individual fai
 date: 2023-02-01
 venue: 'ICLR 2023 (Top 25% Spotlight)'
 paperurl: 'https://openreview.net/pdf?id=N_g8TT9Cy7f'
-citation: 'Dorner, Florian E., et al. "Human-Guided Fair Classification for Natural Language Processing." The Eleventh International Conference on Learning Representations. 2023.'
 authors: "<strong>Florian E. Dorner</strong>, Momchil Peychev, Nikola Konstantinov, Naman Goel, Elliott Ash, and Martin Vechev"
 ---
 

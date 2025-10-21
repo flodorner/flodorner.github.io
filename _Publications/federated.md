@@ -6,7 +6,6 @@ excerpt: 'We show how to use peer-prediction mechanisms to prevent rational clie
 date: 2023-10-12
 venue: 'NeurIPS 2023'
 paperurl: 'https://proceedings.neurips.cc/paper_files/paper/2023/file/182b39a4458fb4a9a8d6871a6671ff3e-Paper-Conference.pdf'
-citation: 'Dorner, Florian E., et al. "Incentivizing honesty among competitors in collaborative learning and optimization." Advances in Neural Information Processing Systems 36 (2023).'
 authors: "<strong>Florian E. Dorner</strong>, Nikola Konstantinov, Georgi Pashaliev, Martin Vechev"
 ---
 

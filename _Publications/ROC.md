@@ -1,0 +1,13 @@
+---
+title: "ROC-n-reroll: How verifier imperfection affects test-time scaling"
+collection: Publications
+permalink: /Publication/ROC
+excerpt: 'How far can test-time scaling take us, when verifiers are imperfect?'
+date: 2025-07-16
+venue: 'arxiv preprint'
+paperurl: 'https://arxiv.org/abs/2507.12399'
+authors: "<strong>Florian E. Dorner</strong>, Yatong Chen, André F Cruz, and Fanny Yang"
+selected: true
+---
+
+Test-time scaling aims to improve language model performance by leveraging additional compute during inference. Many works have empirically studied techniques such as Best-of-N (BoN) and Rejection Sampling (RS) that make use of a verifier to enable test-time scaling. However, to date there is little theoretical understanding of how verifier imperfection affects performance -- a gap we address in this work. Specifically, we prove that the instance-level accuracy of these methods is precisely characterized by the geometry of the verifier's ROC curve. Our theory has two important takeaways, confirmed by experiments with Qwen and LLama models on GSM8K and MATH500. First, RS outperforms BoN for fixed compute, while both methods converge to the same accuracy in the infinite-compute limit. Second, it is generally impossible to predict the high-compute performance of either method based on observations in the low-compute regime.
