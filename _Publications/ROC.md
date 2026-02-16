@@ -4,7 +4,7 @@ collection: Publications
 permalink: /Publication/ROC
 excerpt: 'How far can test-time scaling take us, when verifiers are imperfect?'
 date: 2025-07-16
-venue: 'arxiv preprint'
+venue: 'ICLR 2026'
 paperurl: 'https://arxiv.org/abs/2507.12399'
 authors: "<strong>Florian E. Dorner</strong>, Yatong Chen, André F Cruz, and Fanny Yang"
 selected: true

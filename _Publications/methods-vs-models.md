@@ -4,7 +4,7 @@ collection: Publications
 permalink: /Publication/methods-vs-models
 excerpt: 'Should benchmarks evaluate LLMs, or the methods used to train them?'
 date: 2025-09-24
-venue: 'Evaluating the Evolving LLM Lifecycle Workshop at NeurIPS 2025 (Oral)'
+venue: 'Evaluating the Evolving LLM Lifecycle Workshop at NeurIPS 2025 (Oral, Best Paper Award)'
 paperurl: 'https://openreview.net/forum?id=8yg3XadfIZ'
 authors: "Olawale Elijah Salaudeen, <strong>Florian E. Dorner</strong>, and Peter Hase"
 ---
