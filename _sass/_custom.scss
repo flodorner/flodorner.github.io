@@ -28,6 +28,20 @@
     margin-right: .6rem;
 }
 
+/* On viewports wider than the ~1280px content container, the fixed author
+   sidebar's width scaled with the viewport and drifted over the content column,
+   covering the top publications' links. Cap its width so it stays out of the
+   content column, and keep social-link click targets on the icon + label. */
+@include breakpoint($large) {
+    .sidebar {
+        max-width: 200px;
+    }
+}
+
+.author__urls a {
+    display: inline-block;
+}
+
 /* Small badge next to titles, if you use venue_short/badge */
 .pub-label {
     display: inline-block;
