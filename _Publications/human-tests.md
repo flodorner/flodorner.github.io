@@ -4,7 +4,7 @@ collection: Publications
 permalink: /Publication/human-tests
 excerpt: 'Test designed to evaluate humans often produce misleading results when used to evaluate AI systems.'
 date: 2025-07-30
-venue: 'arxiv preprint'
+venue: 'ICML 2026 (Position Paper)'
 paperurl: 'https://arxiv.org/abs/2507.23009'
 authors: "Tom Sühr, <strong>Florian E. Dorner</strong>, Olawale Salaudeen, Augustin Kelava, and Samira Samadi "
 ---
