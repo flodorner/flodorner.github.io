@@ -35,6 +35,13 @@ author_profile: true
       {%- if post.slidesurl -%}<a href="{{ post.slidesurl }}" target="_blank" rel="noopener">Slides</a>{%- endif -%}
       {%- if post.video -%}<a href="{{ post.video }}" target="_blank" rel="noopener">Video</a>{%- endif -%}
       {%- if post.doi -%}<a href="https://doi.org/{{ post.doi }}" target="_blank" rel="noopener">DOI</a>{%- endif -%}
+      {%- assign abstract = post.content | strip_html | strip -%}
+      {%- if abstract != "" -%}
+      <details class="pub-abstract">
+        <summary>Abstract</summary>
+        <div class="pub-abstract-body">{{ post.content }}</div>
+      </details>
+      {%- endif -%}
     </div>
   </li>
 {%- endfor -%}

@@ -24,8 +24,57 @@
     margin-top: .15rem;
 }
 
-.pub-links a {
-    margin-right: .6rem;
+.pub-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: .6rem;
+}
+
+/* Thin boxed "pills" for the PDF / Abstract / Code / … links, no underline. */
+.pub-links a,
+.pub-abstract > summary {
+    display: inline-block;
+    margin-right: 0;
+    padding: .1rem .5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: $link-color;
+    line-height: 1.5;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+        border-color: #bbb;
+        background: #f7f7f7;
+    }
+}
+
+/* "Abstract" toggle: a link-styled <summary> that sits in the links row and
+   expands the abstract on its own full-width line below. No JavaScript. */
+.pub-abstract {
+    display: contents;
+}
+
+.pub-abstract > summary {
+    order: -1; /* show "Abstract" before PDF, while the body stays at the row's end */
+    cursor: pointer;
+    list-style: none;
+
+    &::-webkit-details-marker {
+        display: none;
+    }
+}
+
+.pub-abstract > .pub-abstract-body {
+    width: 100%;
+    margin-top: .35rem;
+    color: #555;
+    font-size: $type-size-6;
+}
+
+.pub-abstract:not([open]) > .pub-abstract-body {
+    display: none;
 }
 
 /* On viewports wider than the ~1280px content container, the fixed author
