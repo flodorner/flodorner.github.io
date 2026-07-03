@@ -9,7 +9,7 @@ redirect_from:
 
 I am Florian Dorner, a doctoral fellow with the Max Planck ETH Center for Learning Systems advised by Moritz Hardt and Fanny Yang. I hold an MSc. in Mathematics from FU Berlin and an MSc. in Science, Technology and Policy from ETH Zurich.
 
-I am interested in understanding the societal impacts of Artificial Intelligence. These days, most of my work focuses on the role of data quality in various parts of the Machine Learning pipeline, with a particular focus on benchmarking and evaluation. 
+I am interested in understanding the societal impacts of Artificial Intelligence. These days, most of my work focuses on the role of data quality in various parts of the Machine Learning pipeline, with a particular focus on benchmarking and evaluation.  
 
 
 <h1>Selected Publications</h1>
